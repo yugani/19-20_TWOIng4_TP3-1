@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Fiche from "./Fiche";
+import Publi from ".Publi";
 import './Person.css';
 
 class Person extends React.Component 
@@ -66,6 +67,7 @@ class Person extends React.Component
 		</div>
 
 		<Fiche fiche = {this.state.profils[this.state.minion]}/>
+		<Publi publi = {this.state.profils[this.state.minion]}/>
 
 	</div>
 
